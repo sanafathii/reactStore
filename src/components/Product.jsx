@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Product({ product }) {
-  const { id, title, price, image, category, rating } = product;
+  const { title, price, image, category, rating } = product;
   return (
     <div className="w-[280px] h-[420px] product  border border-gray-400 rounded-md">
       <div>

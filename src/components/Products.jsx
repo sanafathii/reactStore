@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Product from "./product";
+import Product from "./Product";
 
 export default function Products({ products }) {
   return (
